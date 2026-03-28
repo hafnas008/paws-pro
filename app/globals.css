@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+* { font-family: 'Plus Jakarta Sans', sans-serif; }
+body { background-color: #F7FDF9; }
+input[type="date"], input[type="time"] { color-scheme: light; }
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-thumb { background: #A7F3D0; border-radius: 10px; }
